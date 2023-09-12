@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import React from "react";
-import Formulario from "./Formulario";
+import Formulario from "../Formulario/Formulario";
 import { RecoilRoot } from "recoil";
 import { act } from "react-dom/test-utils";
 
