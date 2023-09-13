@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import { useListaDeParticipantes } from "../../state/hook/useListaDeParticipantes"
+import './Rodape.css'
 
 const Rodape = () => {
 
@@ -12,8 +13,8 @@ const Rodape = () => {
     }
 
     return (
-        <footer>
-            <button disabled={participantes.length < 3} onClick={iniciar}>Iniciar brincadeira</button>
+        <footer className="rodape">
+            <button className="botao" disabled={participantes.length < 3} onClick={iniciar}>Iniciar brincadeira</button>
         </footer>
     )
 }

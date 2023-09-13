@@ -1,4 +1,4 @@
-import './style.css';
+import './Card.css';
 
 const Card: React.FC = ({ children }) => {
     return (

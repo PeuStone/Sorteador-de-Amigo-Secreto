@@ -1,4 +1,4 @@
-import './estilos.css'
+import './Cabecalho.css'
 
 const Cabecalho = () => {
     return (
