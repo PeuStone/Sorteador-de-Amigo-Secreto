@@ -10,8 +10,7 @@ export const useSorteador = () => {
     const setResultado = useSetRecoilState(resultadoAmigoSecreto)
 
     return () => {
-        const resultado = realizarSorteio(participantes)       
+        const resultado = realizarSorteio(participantes)
         setResultado(resultado)
-
     }
 }
