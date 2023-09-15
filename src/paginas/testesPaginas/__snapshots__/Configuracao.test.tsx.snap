@@ -36,6 +36,10 @@ exports[`a pagina de configuracao deve ser renderizada corretamente 1`] = `
         >
           Iniciar brincadeira
         </button>
+        <img
+          alt="Sacolas de compras"
+          src="/imagens/sacolas.png"
+        />
       </footer>
     </section>
   </div>
